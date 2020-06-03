@@ -1,0 +1,386 @@
+@media (max-width: 550px) {
+
+  body {
+    padding: 0;
+    margin: 0;
+    font size: 14px;
+    background-image: url(images/bg-mobile.svg);
+    font-family: 'Raleway', sans-serif;
+  }
+
+.wrapper {
+  width: 100%;
+}
+
+.section-1 {
+  background-color: hsl(228, 56%, 26%);
+  width: 90%;
+  margin-top: 35%;
+  margin-left: 5%;
+  border-radius: 15px 100px 15px 15px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 40%;
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.icons {
+  width: 100%;
+  margin-left: 0;
+}
+
+.doc img {
+  width: 5%;
+  padding: 2% 3%;
+  border: 1px solid hsl(229, 57%, 11%);
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 7px;
+  float: left;
+  margin-left: 15%;
+  margin-right: 2%;
+}
+
+.fold img {
+  width: 5.5%;
+  padding: 2.5%;
+  border: 1px solid hsl(229, 57%, 11%);
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 6px;
+  margin-right: 2%;
+  float: left;
+}
+
+.upload img {
+  width: 5.5%;
+  padding: 2.9%;
+  border: 1px solid hsl(229, 57%, 11%);
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 6px;
+  margin-bottom: 15%;
+}
+
+.section-2 {
+  width: 90%;
+  margin-left: 5%;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 15px;
+  color: white;
+  position: absolute;
+  top: 400px;
+  padding-bottom: 10%;
+}
+
+h1 {
+  font-size: 0.7rem;
+  padding-top: 8%;
+  color: hsl(243, 100%, 93%);
+  text-align: center;
+}
+
+span {
+  color: white;
+}
+
+.meter {
+  width: 75%;
+	height: 14px;  /* Can be anything */
+	position: relative;
+  background:  hsl(229, 57%, 11%);
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 2.5px;
+  margin: auto;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%) 37%,
+    hsl(335, 100%, 65%) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+h2 {
+  font-size: 0.6rem;
+  float: left;
+  padding-top: 0.7%;
+  padding-right: 30%;
+}
+
+h3 {
+  font-size: 0.6rem;
+  padding-top: 0;
+  padding-left: 80%;
+}
+
+.sec-2 {
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 510px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.sec-2 span {
+  color: hsl(229, 7%, 55%);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.attribution {
+  position: absolute;
+  top: 650px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+
+}
+
+.attribution p {
+  text-align: center;
+  padding: 1%;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+}
+
+@media (min-width: 551px) {
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+  background-image: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.section-1 {
+  width: 30%;
+  float: left;
+  margin-left: 8%;
+  margin-top: 15%;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 15px 100px 15px 15px;
+}
+
+
+.logo {
+  width: 100%;
+}
+
+
+
+.logo img {
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.icons {
+  width: 100%;
+  margin-left: 0;
+}
+
+.doc img {
+  width: 5%;
+  padding: 2% 3%;
+  border: 1px solid hsl(229, 57%, 11%);
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 7px;
+  float: left;
+  margin-left: 15%;
+  margin-right: 2%;
+}
+
+.fold img {
+  width: 5.5%;
+  padding: 2.5%;
+  border: 1px solid hsl(229, 57%, 11%);
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 6px;
+  margin-right: 2%;
+  float: left;
+}
+
+.upload img {
+  width: 5.5%;
+  padding: 2.9%;
+  border: 1px solid hsl(229, 57%, 11%);
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 6px;
+  margin-bottom: 15%;
+}
+
+
+
+.section-2 {
+  width: 50%;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 15px;
+  color: white;
+  padding-bottom: 2%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 20%;
+  margin-bottom: 16%;
+}
+
+h1 {
+    width: 90%;
+  font-size: 0.9rem;
+  padding-top: 4%;
+  color: hsl(243, 100%, 93%);
+  text-align: center;
+}
+
+span {
+  color: white;
+}
+
+.meter {
+  width: 90%;
+	height: 13px;  /* Can be anything */
+	position: relative;
+  background:  hsl(229, 57%, 11%);
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 2.5px;
+  margin: auto;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%) 37%,
+    hsl(335, 100%, 65%) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+
+h2 {
+  font-size: 0.8rem;
+  float: left;
+  padding-top: 0.7%;
+  padding-right: 30%;
+}
+
+h3 {
+  font-size: 0.8rem;
+  padding-top: 0;
+  padding-left: 82%;
+}
+
+.sec-2 {
+  width: 10%;
+  height: 55px;
+  margin-left: 80%;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  top: 240px;
+}
+
+.sec-2 h4 {
+  width: 100%;
+  position: absolute;
+  top: -20px;
+}
+
+.sec-2 span {
+color: hsl(229, 7%, 55%);
+font-size: 0.8rem;
+}
+
+.attribution {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.attribution p {
+  text-align: center;
+  padding: 3%;
+
+}
+
+.attribution a {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+}
